@@ -6,7 +6,7 @@ import GeneratedResults from "./GeneratedResults";
 import ListingHistory from "./ListingHistory";
 import { ImageFile, ListingFormData, AIGeneratedContent } from './types';
 import { generateListingContent } from "./openai"
-import { supabase } from './lib/supabase';
+import { supabase } from './supabase';
 
 function App() {
   const [images, setImages] = useState<ImageFile[]>([]);
