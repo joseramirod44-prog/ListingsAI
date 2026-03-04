@@ -5,7 +5,7 @@ import ListingForm from "./ListingForm";
 import GeneratedResults from "./GeneratedResults";
 import ListingHistory from "./ListingHistory";
 import { ImageFile, ListingFormData, AIGeneratedContent } from './types';
-import { generateListingContent } from import ... from "./openai";
+import { generateListingContent } from "./openai"
 import { supabase } from './lib/supabase';
 
 function App() {
