@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import { Clock, Trash2, ExternalLink } from 'lucide-react';
-import { supabase } from '../lib/supabase';
+import { supabase } from "./supabase";
 import { Listing } from '../types';
 
 interface ListingHistoryProps {
