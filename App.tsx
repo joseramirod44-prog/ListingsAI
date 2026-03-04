@@ -1,9 +1,9 @@
 import { useState } from 'react';
 import { Sparkles, Save, Loader2 } from 'lucide-react';
-import PhotoUpload from './components/PhotoUpload';
-import ListingForm from './components/ListingForm';
-import GeneratedResults from './components/GeneratedResults';
-import ListingHistory from './components/ListingHistory';
+import PhotoUpload from "./PhotoUpload";
+import ListingForm from "./ListingForm";
+import GeneratedResults from "./GeneratedResults";
+import ListingHistory from "./ListingHistory";
 import { ImageFile, ListingFormData, AIGeneratedContent } from './types';
 import { generateListingContent } from './services/openai';
 import { supabase } from './lib/supabase';
