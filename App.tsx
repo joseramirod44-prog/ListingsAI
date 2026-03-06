@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState } from 'react'; 
 import { Sparkles, Save, Loader2 } from 'lucide-react';
 import PhotoUpload from "./PhotoUpload";
 import ListingForm from "./ListingForm";
